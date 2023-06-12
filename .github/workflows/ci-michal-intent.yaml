@@ -15,4 +15,12 @@ jobs:
         run: |
           echo "Hello CI World!"
           echo "I am Michał and I'm really glad this works"
+      
+      - name: Install dependencies
+        working-directory: version-control/final
+        run: npm ci
+      
+      - name: Run tests
+        working-directory: version-control/final
+        run: npm test
 
