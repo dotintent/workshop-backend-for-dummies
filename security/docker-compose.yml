@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  security-db:
+    image: postgres:alpine
+    restart: always
+    environment:
+      POSTGRES_DB: security
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+    ports:
+      - 3211:5432
+    volumes: 
+      - ./init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+
+volumes:
+  pg_dump:
+
+networks:
+  default:
+    driver: bridge
