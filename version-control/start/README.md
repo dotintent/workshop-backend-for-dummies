@@ -16,27 +16,19 @@
 3. Połącz lokalne repozytorium ze zdalnym 
 4. Stwórz plik w lokalnym katalogu, dodaj go do śledzonych przez git (`git add`), następnie go skomituj (`git commit`) oraz wypchnij do repozytorium zdalnego (`git push`). Zaobserwuj zmiany w repozytorium zdalnym
 
-
-
 ### 3. Ignorowanie plików
 1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `ignoring-[TWOJE_IMIĘ]`
 2. Stwórz plik o nazwie `secret-[TWOJE_IMIĘ].txt`
 3. Dodaj jego nazwę do pliku `.gitignore`
 4. Zaobserwuj co dzieje się przy próbie skomitowania zmiany
 
-
-
-
-
-
-
-
 ### 7. Testowanie
 1. zainstaluj paczkę `jest` (linki w sekcji "Zasoby")
-2. Dodaj przypadki testowe do funkcji `reverseString` oraz `isAdultAge`
-3. Zaktualizuj skrypt `test` wewnątrz `package.json`. Zamień obecną komendę na komendę `jest`
-4. Stwórz skrypt `test:coverage` wewnątrz `package.json`. Niech wywołuje on komendę `jest --coverage`
-4. Stwórz skrypt `test:watch` wewnątrz `package.json`. Niech wywołuje on komendę `jest --watch`
+2. stwórz nowy plik `util.test.js`
+3. Dodaj w nim przypadki testowe do funkcji `reverseString` oraz `isAdultAge`
+4. Zaktualizuj skrypt `test` wewnątrz `package.json`. Zamień obecną komendę na komendę `jest`
+5. Stwórz skrypt `test:coverage` wewnątrz `package.json`. Niech wywołuje on komendę `jest --coverage`
+6. Stwórz skrypt `test:watch` wewnątrz `package.json`. Niech wywołuje on komendę `jest --watch`
 
 ### 8. CI-CD
 1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazywając ją `ci-exercise-[TWOJE_IMIĘ]`

@@ -16,20 +16,11 @@
 3. Połącz lokalne repozytorium ze zdalnym 
 4. Stwórz plik w lokalnym katalogu, dodaj go do śledzonych przez git (`git add`), następnie go skomituj (`git commit`) oraz wypchnij do repozytorium zdalnego (`git push`). Zaobserwuj zmiany w repozytorium zdalnym
 
-
-
 ### 3. Ignorowanie plików
 1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `ignoring-[TWOJE_IMIĘ]`
 2. Stwórz plik o nazwie `secret-[TWOJE_IMIĘ].txt`
 3. Dodaj jego nazwę do pliku `.gitignore`
 4. Zaobserwuj co dzieje się przy próbie skomitowania zmiany
-
-
-
-
-
-
-
 
 ### 7. Testowanie
 1. zainstaluj paczkę `jest` (linki w sekcji "Zasoby")
