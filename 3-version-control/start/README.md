@@ -1,15 +1,5 @@
 # Kontrola Wersji
 
-TODO: 
-- Otwórz Pull Request
-- zakładanie konta w GitHub -> screeny
-- otwieranie PR -> slajdy
-- dobre praktyki 
- - conventional commit
- - jedna zmiana na commit
- - code review
- - komentowanie Pull Requestów
-
 ## Zadania
 ### 1. Tworzenie nowego lokalnego repozytorium i wypychanie go do repozytorium zdalnego
 1. Stwórz nowy katalog, zainicjalizuj w nim lokalne repozytorium git 
@@ -17,28 +7,27 @@ TODO:
 3. Połącz lokalne repozytorium ze zdalnym 
 4. Stwórz plik w lokalnym katalogu, dodaj go do śledzonych przez git (`git add`), następnie go skommituj (`git commit`) oraz wypchnij do repozytorium zdalnego (`git push`). Zaobserwuj zmiany w repozytorium zdalnym
 
-### Klonowanie istniejącego repozytorium
-
 ### 2. Dodawanie plików do `.gitignore`
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `gitignore-[TWOJE_IMIĘ]`
+1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `gitignore-[TWOJE_IMIĘ]`
 2. Stwórz plik o nazwie `secret-[TWOJE_IMIĘ].txt`
 3. Dodaj jego nazwę do pliku `.gitignore`
 
 
 ### 3. Otwieranie Pull Requestów
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `pr-flow-[TWOJE_IMIĘ]`
+1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `pr-flow-[TWOJE_IMIĘ]`
 2. W katalogu `participants` stwórz plik nazywając go swoim imieniem (np. `michal.txt`)
 3. Skomituj swoją zmianę (`git commit`) i wypchnij ją do repozytorium zdalnego (`git push`)
-4. Stwórz Pull Request
+4. Stwórz Pull Request, opisując go poprawnie
 
 ### 4. Komentowanie Pull Requestów
+1. Skomentuj jeden z otwartych Pull requestów
 
 ### 5. Dołączanie zmian z innej gałęzi do swojej gałęzi kodu
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `merging-[TWOJE_IMIĘ]`
+1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `merging-[TWOJE_IMIĘ]`
 2. 
 
 ### 6. Rozwiązywanie konfliktów
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `conflicts-[TWOJE_IMIĘ]`
+1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `conflicts-[TWOJE_IMIĘ]`
 
 
 ### 7. Testowanie
