@@ -1,33 +1,34 @@
 # Kontrola Wersji
 
 ## Zadania
-### 1. Tworzenie nowego lokalnego repozytorium i wypychanie go do repozytorium zdalnego
+### 1. Ściąganie repozytorium zdalnego, dodawanie zmian i otwieranie Pull Requesta
+1. Sklonuj repozytorium https://github.com/dotintent/git-exercises
+2. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `pr-flow-[TWOJE_IMIĘ]`
+3. W katalogu `participants` stwórz plik nazywając go swoim imieniem (np. `michal.txt`). Dodaj dowolną treść we wnętrzu tego pliku
+4. Skomituj swoją zmianę (`git commit`) i wypchnij ją do repozytorium zdalnego (`git push`)
+5. Otwórz nowy Pull Request, opisując go poprawnie
+6. Poszukaj innych otwartych Pull Requestów w repozytorium, skomentuj oraz zaakceptuj jeden z nich
+7. Kiedy otrzymasz akceptację swojego Pull Requesta, kliknij przycisk "Merge" aby dołączyć go do gałęzi `main`
+
+### 2. Tworzenie nowego lokalnego repozytorium i wypychanie go do repozytorium zdalnego
 1. Stwórz nowy katalog, zainicjalizuj w nim lokalne repozytorium git 
 2. Stwórz nowe lokalne zdalne git w serwisie GitHub
 3. Połącz lokalne repozytorium ze zdalnym 
-4. Stwórz plik w lokalnym katalogu, dodaj go do śledzonych przez git (`git add`), następnie go skommituj (`git commit`) oraz wypchnij do repozytorium zdalnego (`git push`). Zaobserwuj zmiany w repozytorium zdalnym
+4. Stwórz plik w lokalnym katalogu, dodaj go do śledzonych przez git (`git add`), następnie go skomituj (`git commit`) oraz wypchnij do repozytorium zdalnego (`git push`). Zaobserwuj zmiany w repozytorium zdalnym
 
-### 2. Dodawanie plików do `.gitignore`
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `gitignore-[TWOJE_IMIĘ]`
+
+
+### 3. Ignorowanie plików
+1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `ignoring-[TWOJE_IMIĘ]`
 2. Stwórz plik o nazwie `secret-[TWOJE_IMIĘ].txt`
 3. Dodaj jego nazwę do pliku `.gitignore`
+4. Zaobserwuj co dzieje się przy próbie skomitowania zmiany
 
 
-### 3. Otwieranie Pull Requestów
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `pr-flow-[TWOJE_IMIĘ]`
-2. W katalogu `participants` stwórz plik nazywając go swoim imieniem (np. `michal.txt`)
-3. Skomituj swoją zmianę (`git commit`) i wypchnij ją do repozytorium zdalnego (`git push`)
-4. Stwórz Pull Request, opisując go poprawnie
 
-### 4. Komentowanie Pull Requestów
-1. Skomentuj jeden z otwartych Pull requestów
 
-### 5. Dołączanie zmian z innej gałęzi do swojej gałęzi kodu
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `merging-[TWOJE_IMIĘ]`
-2. 
 
-### 6. Rozwiązywanie konfliktów
-1. Wychodząc z gałęzi `main`, stwórz nową gałąź (`git checkout -b` lub `git switch -c`) nazwij ją `conflicts-[TWOJE_IMIĘ]`
+
 
 
 ### 7. Testowanie
