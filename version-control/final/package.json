@@ -1,0 +1,24 @@
+{
+  "name": "backend-for-dummies-version-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotintent/workshop-backend-for-dummies.git"
+  },
+  "author": "michalburdzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotintent/workshop-backend-for-dummies/issues"
+  },
+  "homepage": "https://github.com/dotintent/workshop-backend-for-dummies#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
