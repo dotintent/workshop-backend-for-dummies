@@ -8,6 +8,12 @@ import { config } from 'dotenv';
 
 config();
 
+/*
+ORM, "Object-Relational Mapping", jest techniką programowania,
+która umożliwia konwersję danych między systemami niekompatybilnymi na poziomie typów (np SQL i Javascript).
+Jest to sposób na przeniesienie danych z bazy danych do obiektowego języka programowania.
+ */
+
 @Module({
   imports: [
     TypeOrmModule.forRoot({
